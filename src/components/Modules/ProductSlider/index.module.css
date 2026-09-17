@@ -1,0 +1,3 @@
+.productsTrack :global(.swiper) {
+  padding-right: var(--spacing-gutter);
+}

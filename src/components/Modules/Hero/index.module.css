@@ -1,0 +1,24 @@
+.heroProductStage :global(.swiper),
+.heroProductStage :global(.swiper-wrapper),
+.heroProductStage :global(.swiper-slide) {
+  height: 100%;
+}
+.heroProductStage :global(.swiper) {
+  overflow: visible;
+  clip-path: inset(-12% -10%);
+}
+.heroProductStage :global(.swiper-slide) {
+  opacity: 0;
+  transition: opacity 500ms ease;
+}
+.heroProductStage :global(.swiper-slide-active) {
+  opacity: 1;
+}
+.heroProductStage :global(.swiper-slide-active) .heroCan {
+  transform: rotate(14deg) scale(1);
+}
+@media (min-width: 1024px) {
+  .heroProductStage :global(.swiper-slide-active) .heroCan {
+    transform: rotate(17deg) scale(1);
+  }
+}
