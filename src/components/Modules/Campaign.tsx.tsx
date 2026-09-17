@@ -6,7 +6,7 @@ export function Campaign() {
   return (
     <section
       id="services"
-      className="wrapper-2xl padding wide-container section-space"
+      className="wrapper-2xl wide-container section-space"
       aria-label="Discover your new favorite juice"
     >
       <div className="panel relative pt-7.5 px-6 pb-6 flex flex-col gap-7 sm:flex-row sm:items-center md:p-8 md:gap-5 lg:p-8.5 lg:min-h-75">
